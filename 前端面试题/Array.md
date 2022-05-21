@@ -4,9 +4,6 @@ ES5: Array.isArray(value)
 arr instanceof Array; 如果全局环境中有两个不同版本的Array构造函数，那么无法区分
 Object.prototype.toString.call(arr) === '[object Array]'
 ```
-# 面试题：什么情况用for，什么情况用foreach？二者有什么区别
-
-
 # JS基础精解 之 Array
 Array是除了Object最为常见的引用类型，跟其他语言不同，js中的数组可以存放不同的数据类型。
 一般通过构造函数 ``` let a = new Array()```，和字面量的形式创建 ```let a = [1,'b',true]```
